@@ -2,28 +2,25 @@ const createContact = () => {
   const about = document.createElement('div');
   about.className = 'about';
 
-  const aboutImage = document.createElement('div');
-  aboutImage.className = 'about-image';
-
-  const aboutInfo = document.createElement('div');
-  aboutInfo.className = 'about-image';
+  const aboutCard = document.createElement('div');
+  aboutCard.className = 'about-card';
 
   const img = document.createElement('img');
-  img.src = 'img/about.jpg';
+  img.src = 'img/comida.jpg';
   img.alt = 'about';
+  img.className = 'about-img';
 
   const h2 = document.createElement('h2');
-  h2.innerText = 'About us';
-
+  h2.innerText = 'About Us';
+  h2.className = 'about-text';
   const p = document.createElement('p');
   p.innerText = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, odio aliquid! Quo earum provident culpa eaque asperiores rem soluta, sint quisquam ipsam voluptate nemo saepe laudantium! Accusantium similique ab aliquid.';
+  p.className = 'about-text';
 
-  aboutImage.appendChild(img);
-  aboutInfo.appendChild(h2);
-  aboutInfo.appendChild(p);
-
-  about.appendChild(aboutImage);
-  about.appendChild(aboutInfo);
+  about.appendChild(img);
+  aboutCard.appendChild(h2);
+  aboutCard.appendChild(p);
+  about.appendChild(aboutCard)
 
   return about;
 };

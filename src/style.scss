@@ -79,6 +79,7 @@ nav {
 
 footer {
   width: 100vw;
+  margin-top: 3rem;
   flex-direction: column;
   position: absolute;
   bottom: 0;
@@ -91,4 +92,25 @@ footer {
       margin: 0 5px;
     }
   }
+}
+
+// Contact
+
+.about-card {
+  display: inline-block;
+
+}
+
+.about-img {
+  width: 400px;
+  height: auto;
+  margin: 4.5rem 0 0 3.75rem;
+  border-radius: 5px;
+}
+
+.about-text {
+  width: 30vw;
+  margin: 15px 0 0 3.75rem;
+  font-size: 1.5rem;
+  font-weight: 600;
 }
