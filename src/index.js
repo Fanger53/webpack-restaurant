@@ -1,5 +1,6 @@
 import './style.scss';
 import loadHome from './home';
+import loadContact from './contact';
 
 const setActiveButton = (button) => {
   const buttons = document.querySelectorAll('.button-nav');
@@ -15,7 +16,7 @@ const setActiveButton = (button) => {
 
 const createNav = () => {
   const nav = document.createElement('nav');
-
+  nav.className = 'flex-center';
   const hh = document.createElement('button');
   hh.className = 'button-nav';
   hh.textContent = 'Home';
@@ -57,8 +58,8 @@ const createHeader = () => {
   const div = document.createElement('div');
 
   const h1 = document.createElement('h1');
-  h1.className = 'restaurant-name';
-  h1.innerText = 'Maita';
+  h1.className = 'rest-name';
+  h1.innerText = 'Maita Restaurant';
 
   div.appendChild(h1);
   header.appendChild(div);
@@ -76,10 +77,10 @@ const createMain = () => {
 
 const createFooter = () => {
   const footer = document.createElement('footer');
-  footer.className = 'footer';
+  footer.classList.add('footer', 'flex-center'); 
 
   const footerContent = document.createElement('p');
-  footerContent.innerText = 'Copyright © 2021 David Leonardo Castillo ';
+  footerContent.innerText = 'Copyright © 2021 David Castillo ';
 
   const iconGitHub = document.createElement('i');
   iconGitHub.className = 'fab fa-github';

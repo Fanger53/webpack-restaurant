@@ -3,24 +3,76 @@
   padding: 0;
 }
 
-.home {
-  border: 1px solid MidnightBlue;
+body {
+  background-image: url(../dist/img/pexels-ella-olsson-1640770.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: white;
+}
+
+.flex-center {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.home {
+  margin-top: 35px;
+  flex-direction: column;
 }
 
 #content {
   height: max-content;
-  display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
-.home-img {
+// Header
+
+.rest-name {
+  margin-top: 20px;
+  text-align: center;
+}
+
+// nav-bar
+
+nav {
+  margin-top: 15px;
+}
+
+.button-nav {
+  margin-inline: 10px;
+  padding: 5px;
+  background-color: #fef5e4;
+  border-radius: 5px;
+  border: none;
+}
+
+.home-card {
   width: 45vw;
-  height: auto;
+  height: 350px;
+  background: linear-gradient(179.4deg, rgba(38, 38, 38, 0) 0.81%, rgba(38, 38, 38, 0.9) 84.03%);
+  border-radius: 5px;
 }
 
+.mainP {
+  font-size: 1.5em;
+}
+
+// footer
+
+footer {
+  width: 100vw;
+  flex-direction: column;
+  position: absolute;
+  bottom: 0;
+
+  p {
+    margin-bottom: 15px;
+    font-size: 1.5em;
+
+    i {
+      margin: 0 5px;
+    }
+  }
+}
