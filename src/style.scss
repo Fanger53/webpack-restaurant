@@ -11,6 +11,12 @@ body {
   background-color: white;
 }
 
+.bg-img {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .flex-center {
   display: flex;
   justify-content: center;
@@ -50,13 +56,23 @@ nav {
 
 .home-card {
   width: 45vw;
-  height: 350px;
-  background: linear-gradient(179.4deg, rgba(38, 38, 38, 0) 0.81%, rgba(38, 38, 38, 0.9) 84.03%);
+  height: 19rem;
+  background: linear-gradient(179.4deg, rgba(38, 38, 38, 0) 0.81%, rgba(38, 38, 38, 0.9) 84.03%), url(../dist/img/beetroo.jpg);
   border-radius: 5px;
 }
 
+.h2-margin {
+  margin: 25px 0 0 25px;
+  font-size: 1.9em;
+}
+
 .mainP {
+  margin: 60px 60px 0 25px;
   font-size: 1.5em;
+}
+
+.text-color {
+  color: #eee4d3; 
 }
 
 // footer
