@@ -1,16 +1,15 @@
 const createHome = () => {
   const home = document.createElement('div');
-  home.classList.add('home','flex-center');
+  home.classList.add('home', 'flex-center');
 
   const card = document.createElement('div');
-  card.classList.add('home-card','bg-img');
+  card.classList.add('home-card', 'bg-img');
 
   const h2 = document.createElement('h2');
   h2.innerText = 'Maita Restaurant';
   h2.classList.add('h2-margin', 'text-color');
-
   const mainP = document.createElement('p');
-  mainP.innerText = 'In Maita restaurant, you can find high quality, tasty and healthy  dishes. ';
+  mainP.innerText = 'In Maita Restaurant, you can find high quality, tasty and healthy  dishes. ';
   mainP.classList.add('mainP', 'text-color');
 
   const secondP = document.createElement('p');
@@ -31,5 +30,4 @@ const loadHome = () => {
   main.textContent = '';
   main.appendChild(createHome());
 };
-
 export default loadHome;

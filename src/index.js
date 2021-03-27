@@ -1,5 +1,6 @@
 import './style.scss';
 import loadHome from './home';
+import loadMenu from './menu';
 import loadContact from './contact';
 
 const setActiveButton = (button) => {
@@ -77,7 +78,7 @@ const createMain = () => {
 
 const createFooter = () => {
   const footer = document.createElement('footer');
-  footer.classList.add('footer', 'flex-center'); 
+  footer.classList.add('footer', 'flex-center');
 
   const footerContent = document.createElement('p');
   footerContent.innerText = 'Copyright © 2021 David Castillo ';

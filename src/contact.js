@@ -20,7 +20,7 @@ const createContact = () => {
   about.appendChild(img);
   aboutCard.appendChild(h2);
   aboutCard.appendChild(p);
-  about.appendChild(aboutCard)
+  about.appendChild(aboutCard);
 
   return about;
 };
