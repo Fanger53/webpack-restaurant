@@ -9,7 +9,7 @@
 <p align="center">
   
   <br>
-   Maita Restaurant is an app created with only Javascript using Webpack
+   Maita Restaurant is an app created with only Javascript using Webpack.
 </p>
 
 <p align="center">
