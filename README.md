@@ -24,12 +24,12 @@
 
 
 
-## 👩🏼‍💻 About My Library
+## 👩🏼‍💻 About My Restaurant Page
 
 This is a restaurant page that was created with HTML and JavasCript, The HTML just contains in the body a div with an id= " content" and the whole content of the page is made with JavasCript. This project was created to learn about modularized code and how to work with modules using webpack.
 
 
-<img width="800" alt="my library" src="https://user-images.githubusercontent.com/31552010/110899286-cda5c880-82ce-11eb-8a96-9c2025c7b93f.png">
+<img width="800" alt="my Restaurant" src="https://user-images.githubusercontent.com/31552010/110899286-cda5c880-82ce-11eb-8a96-9c2025c7b93f.png">
 
 
 
