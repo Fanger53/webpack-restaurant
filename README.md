@@ -38,7 +38,7 @@ This is a restaurant page that was created with HTML and JavasCript, The HTML ju
 
 ## 🔴 Live Demo:
 
-[Restaurant Page](https://raw.githack.com/Fanger53/restaurant-webpack/features/dist/index.html)
+[Restaurant Page](https://raw.githack.com/Fanger53/webpack-restaurant/development/dist/index.html)
 
 ## 🔧 Built with
 
