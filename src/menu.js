@@ -6,7 +6,6 @@ const createMenu = () => {
   food1.classList.add('food');
   const imgFood1 = document.createElement('div');
   imgFood1.classList.add('img-food', 'img-food1', 'bg-img');
-  // parte de abajo
   const divFood1 = document.createElement('div');
   divFood1.className = 'divfood';
   const hFood1 = document.createElement('h3');
@@ -23,7 +22,6 @@ const createMenu = () => {
   food2.classList.add('food');
   const imgFood2 = document.createElement('div');
   imgFood2.classList.add('img-food', 'img-food2', 'bg-img');
-  // parte de abajo
   const divFood2 = document.createElement('div');
   divFood2.className = 'divfood';
   const hFood2 = document.createElement('h3');
@@ -40,7 +38,6 @@ const createMenu = () => {
   food3.classList.add('food');
   const imgFood3 = document.createElement('div');
   imgFood3.classList.add('img-food', 'img-food3', 'bg-img');
-  // parte de abajo
   const divFood3 = document.createElement('div');
   divFood3.className = 'divfood';
   const hFood3 = document.createElement('h3');
@@ -57,7 +54,6 @@ const createMenu = () => {
   food4.classList.add('food');
   const imgFood4 = document.createElement('div');
   imgFood4.classList.add('img-food', 'img-food4', 'bg-img');
-  // parte de abajo
   const divFood4 = document.createElement('div');
   divFood4.className = 'divfood';
   const hFood4 = document.createElement('h3');
@@ -74,7 +70,6 @@ const createMenu = () => {
   food5.classList.add('food');
   const imgFood5 = document.createElement('div');
   imgFood5.classList.add('img-food', 'img-food5', 'bg-img');
-  // parte de abajo
   const divFood5 = document.createElement('div');
   divFood5.className = 'divfood';
   const hFood5 = document.createElement('h3');
@@ -91,7 +86,6 @@ const createMenu = () => {
   food6.classList.add('food');
   const imgFood6 = document.createElement('div');
   imgFood6.classList.add('img-food', 'img-food6', 'bg-img');
-  // parte de abajo
   const divFood6 = document.createElement('div');
   divFood6.className = 'divfood';
   const hFood6 = document.createElement('h3');
@@ -103,9 +97,6 @@ const createMenu = () => {
   const pFood6Second = document.createElement('p');
   pFood6Second.innerText = 'Tasty and Hot';
   pFood6Second.classList.add('text-food', 'text-color');
-  
-  
-  
   menu.appendChild(food1);
   food1.appendChild(imgFood1);
   food1.appendChild(divFood1);
@@ -144,11 +135,9 @@ const createMenu = () => {
   food6.appendChild(pFood6Second);
   return menu;
 };
-
 const loadMenu = () => {
   const main = document.getElementById('main');
   main.textContent = '';
   main.appendChild(createMenu());
 };
-
 export default loadMenu;
