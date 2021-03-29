@@ -17,7 +17,7 @@
     <img src="https://img.shields.io/badge/REPORT%20A%20BUG-purple?style=for-the-badge">
   </a>
    ‎ ‎ ‎ ‎
-  <a href="https://github.com/Nexch/Library/issues">
+  <a href="https://github.com/Fanger53/restaurant-webpack/tree/development">
     <img src="https://img.shields.io/badge/Request%20a%20feature-purple?style=for-the-badge">
   </a>
 </p>
