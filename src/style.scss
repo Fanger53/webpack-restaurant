@@ -1,0 +1,182 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(../dist/img/pexels-ella-olsson-1640770.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: white;
+}
+
+.bg-img {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home {
+  margin-top: 35px;
+  flex-direction: column;
+}
+
+#content {
+  height: max-content;
+  flex-direction: column;
+}
+
+// Header
+
+.rest-name {
+  margin-top: 20px;
+  text-align: center;
+}
+
+// nav-bar
+
+nav {
+  margin-top: 15px;
+}
+
+.button-nav {
+  margin-inline: 10px;
+  padding: 5px;
+  background-color: #fef5e4;
+  border-radius: 5px;
+  border: none;
+}
+
+.home-card {
+  width: 45vw;
+  height: 19rem;
+  background: linear-gradient(179.4deg, rgba(38, 38, 38, 0) 0.81%, rgba(38, 38, 38, 0.9) 84.03%), url(../dist/img/beetroo.jpg);
+  border-radius: 5px;
+}
+
+.h2-margin {
+  margin: 25px 0 0 25px;
+  font-size: 1.9em;
+}
+
+.mainP {
+  margin: 60px 60px 0 25px;
+  font-size: 1.5em;
+}
+
+.text-color {
+  color: #eee4d3;
+}
+
+// footer
+
+footer {
+  width: 100vw;
+  margin-top: 3rem;
+  flex-direction: column;
+  // position: absolute;
+  // bottom: 0;
+
+  p {
+    margin-bottom: 15px;
+    font-size: 1.5em;
+
+    i {
+      margin: 0 5px;
+    }
+  }
+}
+
+// Menu
+
+.menu {
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-rows: 300px 300px;
+  margin-top: 35px;
+}
+
+.food {
+  width: 25vw;
+  margin: 15px auto;
+  border-radius: 5px;
+  border: 1px solid #eee4d379;
+  background: linear-gradient(179.4deg, rgba(38, 38, 38, 0) 0.81%, rgba(27, 27, 27, 0.9) 84.03%);
+  overflow: hidden;
+  box-shadow: 5px -5px 5px -3px rgb(63, 60, 57);
+}
+
+.img-food {
+  transform-origin: 100% 15%;
+  transform: rotate(10deg);
+  height: 200px;
+  border-radius: 0 0 80px 0;
+}
+
+.img-food1 {
+  background-image: url(../dist/img/hamburger-494706_640.jpg);
+}
+
+.img-food2 {
+  background-image: url(../dist/img/food2.jpg);
+}
+
+.img-food3 {
+  background-image: url(../dist/img/food6.jpg);
+}
+
+.img-food4 {
+  background-image: url(../dist/img/food4.jpg);
+}
+
+.img-food5 {
+  background-image: url(../dist/img/food5.jpg);
+}
+
+.img-food6 {
+  background-image: url(../dist/img/food3.jpg);
+}
+
+.divfood {
+  width: 90%;
+  margin-top: -20px;
+  display: inline-flex;
+}
+
+.text-food {
+  padding-left: 12px;
+}
+
+.p-food {
+  margin-left: 60px;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+// Contact
+
+.about-card {
+  display: inline-block;
+}
+
+.about-img {
+  width: 400px;
+  height: auto;
+  margin: 4.5rem 0 0 3.75rem;
+  border-radius: 5px;
+  border: 3px solid #fef5e4;
+}
+
+.about-text {
+  width: 30vw;
+  margin: 15px 0 0 3.75rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
