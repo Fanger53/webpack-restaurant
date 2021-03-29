@@ -18,36 +18,36 @@ const setActiveButton = (button) => {
 const createNav = () => {
   const nav = document.createElement('nav');
   nav.className = 'flex-center';
-  const hh = document.createElement('button');
-  hh.className = 'button-nav';
-  hh.textContent = 'Home';
-  hh.addEventListener('click', (e) => {
+  const buttonHome = document.createElement('button');
+  buttonHome.className = 'button-nav';
+  buttonHome.textContent = 'Home';
+  buttonHome.addEventListener('click', (e) => {
     if (e.target.classList.contains('active')) return;
-    setActiveButton(hh);
+    setActiveButton(buttonHome);
     loadHome();
   });
 
-  const hm = document.createElement('button');
-  hm.className = 'button-nav';
-  hm.textContent = 'Menu';
-  hm.addEventListener('click', (e) => {
+  const buttonMenu = document.createElement('button');
+  buttonMenu.className = 'button-nav';
+  buttonMenu.textContent = 'Menu';
+  buttonMenu.addEventListener('click', (e) => {
     if (e.target.classList.contains('active')) return;
-    setActiveButton(hm);
+    setActiveButton(buttonMenu);
     loadMenu();
   });
 
-  const hc = document.createElement('button');
-  hc.className = 'button-nav';
-  hc.textContent = 'Contact';
-  hc.addEventListener('click', (e) => {
+  const buttonContact = document.createElement('button');
+  buttonContact.className = 'button-nav';
+  buttonContact.textContent = 'Contact';
+  buttonContact.addEventListener('click', (e) => {
     if (e.target.classList.contains('active')) return;
-    setActiveButton(hc);
+    setActiveButton(buttonContact);
     loadContact();
   });
 
-  nav.appendChild(hh);
-  nav.appendChild(hm);
-  nav.appendChild(hc);
+  nav.appendChild(buttonHome);
+  nav.appendChild(buttonMenu);
+  nav.appendChild(buttonContact);
 
   return nav;
 };
