@@ -29,7 +29,7 @@
 This is a restaurant page that was created with HTML and JavasCript, The HTML just contains in the body a div with an id= " content" and the whole content of the page is made with JavasCript. This project was created to learn about modularized code and how to work with modules using webpack.
 
 
-<img width="800" alt="my Restaurant" src="https://user-images.githubusercontent.com/31552010/110899286-cda5c880-82ce-11eb-8a96-9c2025c7b93f.png">
+<img width="800" alt="restaurant page" src="https://user-images.githubusercontent.com/31552010/112899051-3fd82480-90a7-11eb-87e9-b41275259e07.png">
 
 
 
